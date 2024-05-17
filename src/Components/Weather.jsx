@@ -57,7 +57,7 @@ const Weather = () => {
         <header className='bg-[#4472C4] text-center'>
           <h1 className='text-white py-4 text-xl font-semibold'>Shubham's Weather App</h1>
         </header>
-        <main className='w-full h-72 flex'>
+        <main className='w-full h-80 flex'>
           {/* left */}
           <div className='w-[20%] h-full border-r-2 border-black px-8 py-4'>
             {/* GetWeather btn */}
@@ -90,7 +90,7 @@ const Weather = () => {
                 <tr className='bg-[#4472C4] font-semibold text-white'>
                   <th className='w-1/7 border py-2'>City</th>
                   <th className='w-2/7 border'>Description</th>
-                  <th className='w-1/7 border'>Temperature</th>
+                  <th className='w-1/7 border'>Temperature(°C)</th>
                   <th className='w-1/7 border'>Pressure</th>
                   <th className='w-1/7 border'>Data age(hrs)</th>
                   <th className='w-1/7 border'>Delete</th>
